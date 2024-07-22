@@ -14,9 +14,36 @@ body {
     background-position: bottom;
     margin: 0;
     height: 910px;
+    display: block;
+}
+
+#titlecontainer{
+    height: 910px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+nav{
+    padding: 15px;
+    padding-inline: 50px;
+    font-size: 20px;
+    height: 65px;
+}
+nav:hover{
+    box-shadow: 0px 5px 15px black;
+}
+button{
+    float: right;
+    color: gray;
+}
+a button{
+    color: black;
+}
+a:hover{
+    opacity: 50%;
+}
+#schedule{
+    background-image: linear-gradient(to bottom, #275477, #072A44);
 }
 h1, h2, h5, p, .btn, .btn:hover{
     color: white;
