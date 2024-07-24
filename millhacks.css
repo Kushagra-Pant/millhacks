@@ -13,12 +13,12 @@ body {
     background-size: cover;
     background-position: bottom;
     margin: 0;
-    height: 910px;
+    height: 100vh;
     display: block;
 }
 
 #titlecontainer{
-    height: 910px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
