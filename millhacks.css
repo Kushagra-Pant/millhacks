@@ -81,15 +81,15 @@ p{
     font-family: "Archivo";
     font-weight: lighter;
 }
-#interestbutton{
+.interestbutton{
     font-size: 20px;
-    padding: 2%;
+    padding: 12px;
     border-radius: 15px;
     background-color: #82C7CE;
     border: #186076 2px solid;
     transition: transform 0.6s;
 }
-#interestbutton:hover{
+.interestbutton:hover{
     opacity: 1;
     transform: scale(1.2);
 }
