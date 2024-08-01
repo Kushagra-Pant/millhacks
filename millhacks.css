@@ -17,12 +17,15 @@ body {
     height: 100vh;
     display: block;
 }
-
 #titlecontainer{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#titleinner{
+    display: block;
+    transform:translateY(-5%);
 }
 nav{
     font-size: 20px;
@@ -76,4 +79,24 @@ p{
     color: white;
     font-family: "Archivo";
     font-weight: lighter;
+}
+#interestbutton{
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: #82C7CE;
+    border: #186076 2px solid;
+}
+#interestbutton:hover{
+    animation: sinGrow 1s;
+}
+
+@keyframes sinGrow {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+}
+
+@keyframes sinShrink {
+    0% { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }
