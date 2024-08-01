@@ -36,8 +36,8 @@ nav:hover{
     padding: 15px;
     padding-inline: 25px;
 }
-.navbutton:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+a .navbutton:hover{
+    background-color: rgba(0, 255, 255, 0.3);
 }
 a .navbutton{
     color: black;
