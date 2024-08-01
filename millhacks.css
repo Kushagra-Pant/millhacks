@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    background-position-x: center;
     margin: 0;
     height: 100vh;
     display: block;
