@@ -86,17 +86,8 @@ p{
     border-radius: 15px;
     background-color: #82C7CE;
     border: #186076 2px solid;
+    transition: transform 1s;
 }
 #interestbutton:hover{
-    animation: sinGrow 1s;
-}
-
-@keyframes sinGrow {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.2); }
-}
-
-@keyframes sinShrink {
-    0% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+    transform: scale(1.2);
 }
