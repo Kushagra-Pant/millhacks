@@ -5,13 +5,13 @@ function load(){
 }
 
 function scaleUp(){
-  btns = document.getElementsByTagName("navbutton");
+  btns = document.getElementsByClassName("navbutton");
   for(i = 0; i < btns.length; i++){
     btns[i].style.display = "inline-block";
     btns[i].style.float = "none";
   }
   
-  document.getElementsById("titlepage").style.backgroundImage = "squarebg.png";
+  document.getElementById("titlepage").style.backgroundImage = "url(squarebg.png)";
   document.getElementsByTagName("nav")[0].style.transform = "scale(2)";
   document.getElementsByClassName("title")[0].style.transform = "scale(2)";
   document.getElementsByClassName("interestbutton")[0].style.transform = "scale(2)";
