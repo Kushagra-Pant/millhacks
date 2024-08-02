@@ -7,7 +7,7 @@ function load(){
 function scaleUp(){
   btns = document.getElementsByTagName("navbutton");
   for(i = 0; i < btns.length; i++){
-    btns[i].style.transform = "inline-block";
+    btns[i].style.display = "inline-block";
   }
   
   document.getElementsByTagName("nav")[0].style.transform = "scale(2)";
