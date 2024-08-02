@@ -10,6 +10,7 @@ function scaleUp(){
     btns[i].style.display = "inline-block";
   }
   
+  document.getElementsById("titlepage").style.backgroundImage = "squarebg.png";
   document.getElementsByTagName("nav")[0].style.transform = "scale(2)";
   document.getElementsByClassName("title")[0].style.transform = "scale(2)";
   document.getElementsByClassName("interestbutton")[0].style.transform = "scale(2)";
