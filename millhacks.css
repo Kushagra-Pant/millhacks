@@ -16,6 +16,7 @@ body {
     margin: 0;
     height: 100vh;
     display: block;
+    box-shadow: inset 0px -50px 35px 0px #062a43;
 }
 #titlecontainer{
     height: 100vh;
