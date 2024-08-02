@@ -5,10 +5,10 @@ function load(){
 }
 
 function scaleUp(){
-  document.getElementsByTagName("nav")[0].style.transform = "scale(3)";
+  document.getElementsByTagName("nav")[0].style.transform = "scale(2)";
     document.getElementsByClassName("title")[0].style.transform = "scale(2)";
-    document.getElementsByClassName("interestbutton")[0].style.transform = "scale(2.5)";
-    document.getElementsByClassName("interestbutton")[1].style.transform = "scale(2.5)";
+    document.getElementsByClassName("interestbutton")[0].style.transform = "scale(2)";
+    document.getElementsByClassName("interestbutton")[1].style.transform = "scale(2)";
     
     btns = document.getElementsByClassName("btn");
     for(i = 0; i < btns.length; i++){
