@@ -1,6 +1,11 @@
 function load(){
   if(screen.height > screen.width){
-    document.getElementsByTagName("nav")[0].style.transform = "scale(3)";
+    scaleUp()
+  }
+}
+
+function scaleUp(){
+  document.getElementsByTagName("nav")[0].style.transform = "scale(3)";
     document.getElementsByClassName("title")[0].style.transform = "scale(2)";
     document.getElementsByClassName("interestbutton")[0].style.transform = "scale(2.5)";
     document.getElementsByClassName("interestbutton")[1].style.transform = "scale(2.5)";
@@ -19,5 +24,4 @@ function load(){
     for(i = 0; i < headers.length; i++){
       headers[i].style.transform = "scale(2)";
     }
-  }
 }
