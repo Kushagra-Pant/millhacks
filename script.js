@@ -8,6 +8,7 @@ function scaleUp(){
   btns = document.getElementsByTagName("navbutton");
   for(i = 0; i < btns.length; i++){
     btns[i].style.display = "inline-block";
+    btns[i].style.float = "none";
   }
   
   document.getElementsById("titlepage").style.backgroundImage = "squarebg.png";
