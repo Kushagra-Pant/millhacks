@@ -46,7 +46,7 @@ a .navbutton:hover{
     background-color: rgba(0, 255, 255, 0.3);
 }
 a .navbutton{
-    color: black;
+    color: #82c7d0;
 }
 a:hover{
     opacity: 50%;
