@@ -1,6 +1,6 @@
 function load(){
   if(screen.height > screen.width){
-    scaleUp()
+    /*scaleUp()*/
   }
 }
 
