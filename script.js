@@ -1,5 +1,4 @@
 function load(){
-  document.getElementsByClassName("title")[0].innerHTML = screen.height + "x" + screen.width;
   if(screen.height > screen.width){
     /*scaleUp()*/
   }
