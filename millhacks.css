@@ -100,6 +100,10 @@ p{
         display: inline-block;
         float: none;
     }
+    
+    #titlepage{
+        background-image: url(millhacksbg.png);
+    }
   
     nav{
         font-size: 290%;
@@ -107,7 +111,7 @@ p{
     }
 
     #titleinner{
-        transform:translateY(-5%);
+        transform:translateY(-15%);
     }
 
     h1{
