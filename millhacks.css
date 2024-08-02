@@ -109,4 +109,28 @@ p{
     #titleinner{
         transform:translateY(-5%);
     }
+
+    h1{
+        font-size: 250px;
+    }
+
+    h2{
+        font-size: 100px;
+    }
+
+    p{
+        font-size: 35px;
+    }
+
+    .interestbutton{
+        font-size: 60px;
+    }
+
+    .btn{
+        font-size: 2.5rem;
+    }
+
+    .card-body{
+        font-size: 30px;
+    }
 }
