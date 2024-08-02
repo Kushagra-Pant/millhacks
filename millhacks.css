@@ -94,3 +94,19 @@ p{
     opacity: 1;
     transform: scale(1.2);
 }
+
+@media (max-width: 480px) {
+    .navbutton{
+        display: inline-block;
+        float: none;
+    }
+  
+    nav{
+        font-size: 290%;
+        height: 100px;
+    }
+
+    #titleinner{
+        transform:translateY(-5%);
+    }
+}
