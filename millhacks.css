@@ -64,7 +64,8 @@ h2 {
     font-size: 50px;
 }
 p{
-    font-size: 20px
+    font-size: 20px;
+    font-weight: lighter;
 }
 #container{
     margin-inline: 50px;
@@ -95,46 +96,26 @@ p{
     transform: scale(1.2);
 }
 
-@media (max-width: 480px) {
-    .navbutton{
-        display: inline-block;
-        float: none;
-    }
-    
+@media (max-width: 480px){
     #titlepage{
-        background-image: url(millhacksbg.png);
-    }
-  
-    nav{
-        font-size: 290%;
-        height: 100px;
+        background-image: url(squarebg.png);
     }
 
-    #titleinner{
-        transform:translateY(-15%);
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbutton{
+        display: inline-block;
+        padding-inline: 10px;
     }
 
     h1{
-        font-size: 250px;
+        font-size: 70px;
     }
 
     h2{
-        font-size: 100px;
-    }
-
-    p{
-        font-size: 35px;
-    }
-
-    .interestbutton{
-        font-size: 60px;
-    }
-
-    .btn{
-        font-size: 2.5rem;
-    }
-
-    .card-body{
-        font-size: 30px;
+        font-size: 40px;   
     }
 }
