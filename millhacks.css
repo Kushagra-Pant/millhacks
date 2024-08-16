@@ -47,15 +47,13 @@ nav:hover{
     padding: 15px;
     padding-inline: 25px;
 }
-a.navbutton:hover{
+a .navbutton:hover{
     background-color: rgba(0, 255, 255, 0.3);
 }
 a .navbutton{
     color: #82c7d0;
 }
-a:hover{
-    opacity: 50%;
-}
+
 #schedule{
     background-image: linear-gradient(to bottom, #275477, #072A44);
 }
@@ -97,8 +95,8 @@ p{
     transition: transform 0.6s;
 }
 .interestbutton:hover{
-    opacity: 1;
     transform: scale(1.2);
+    opacity: 50%;
 }
 
 @media (max-width: 480px){
