@@ -6,15 +6,8 @@ body {
     font-family: "Archivo Black", sans-serif;
     font-weight: bold;
     padding-bottom: 50px;
-    overflow-inline: hidden;
 }
 #titlepage{
-    background-image: url(millhacksbg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-position-x: center;
-    z-index: -6;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -54,7 +47,7 @@ nav:hover{
     padding: 15px;
     padding-inline: 25px;
 }
-a .navbutton:hover{
+a.navbutton:hover{
     background-color: rgba(0, 255, 255, 0.3);
 }
 a .navbutton{
@@ -133,26 +126,31 @@ p{
 }
 
 .star-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -5;
+    background-image: url(millhacksbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-x: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -5;
 }
 .star {
-  position: absolute;
-  background-color: white;
-  transform: rotate(45deg);
-  opacity: 0;
-  animation: twinkle 2s infinite ease-in-out;
+    position: absolute;
+    background-color: white;
+    transform: rotate(45deg);
+    opacity: 0;
+    animation: twinkle 2s infinite ease-in-out;
 }
 
 @keyframes twinkle {
-  0%, 100% {
+    0%, 100% {
       opacity: 0;
-  }
-  50% {
+    }
+    50% {
       opacity: 1;
-  }
+    }
 }
