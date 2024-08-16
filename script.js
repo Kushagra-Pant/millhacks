@@ -6,9 +6,9 @@ function load(){
         const star = document.createElement('div')
         star.classList.add('star')
     
-        size = Math.floor(Math.random() * 3) + 1
-        star.style.width = `${size}px`
-        star.style.height = `${size}px`
+        size = Math.floor(Math.random() * 0.003) + 0.001
+        star.style.width = `${size}vw`
+        star.style.height = `${size}vw`
         star.style.border = `${size / 2}px solid white`
     
         star.style.top = `${Math.random() * 97}vh`
