@@ -6,6 +6,7 @@ body {
     font-family: "Archivo Black", sans-serif;
     font-weight: bold;
     padding-bottom: 50px;
+    overflow-x: hidden;
 }
 #titlepage{
     display: flex;
