@@ -15,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    
 }
 #titleforeground {
     margin: 0;
@@ -33,6 +32,9 @@ body {
 #titleinner{
     display: block;
     transform:translateY(-5%);
+}
+.title{
+    animation: textRotate 15s infinite ease-in-out alternate;
 }
 nav{
     font-size: 125%;
@@ -152,4 +154,12 @@ p{
     50% {
       opacity: 1;
     }
+}
+
+@keyframes textRotate {
+  0% {text-shadow: cyan 6px 6px 60px;}
+  25% {text-shadow: cyan 6px -6px 80px;}
+  50% {text-shadow: cyan -6px -6px 90px;}
+  75% {text-shadow: cyan -6px 6px 80px;}
+  100% {text-shadow: cyan 6px 6px 60px;}
 }
