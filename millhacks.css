@@ -34,7 +34,7 @@ body {
     transform:translateY(-5%);
 }
 .title{
-    animation: textRotate 15s infinite ease-in-out;
+    animation: textRotate 18s infinite ease-in-out;
 }
 nav{
     font-size: 125%;
@@ -158,8 +158,8 @@ p{
 
 @keyframes textRotate {
   0% {text-shadow: cyan 9px 9px 50px;}
-  25% {text-shadow: 10px -10px 80px;}
-  50% {text-shadow: #0bdaa6 -11px -11px 100px;}
-  75% {text-shadow: -10px 10px 80px;}
+  25% {text-shadow: #0bdaa6 10px -10px 80px;}
+  50% {text-shadow:  #ebf561 -15px -11px 100px;}
+  75% {text-shadow: #0bdaa6 -10px 10px 80px;}
   100% {text-shadow: cyan 9px 9px 50px;}
 }
