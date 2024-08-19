@@ -34,7 +34,7 @@ body {
     transform:translateY(-5%);
 }
 .title{
-    animation: textRotate 15s infinite ease-in-out alternate;
+    animation: textRotate 15s infinite ease-in-out;
 }
 nav{
     font-size: 125%;
@@ -102,8 +102,29 @@ p{
     opacity: 50%;
 }
 
+.star-container {
+    background-image: url(millhacksbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-x: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -5;
+}
+.star {
+    position: absolute;
+    background-color: white;
+    transform: rotate(45deg);
+    opacity: 0;
+    animation: twinkle 2s infinite ease-in-out;
+}
+
 @media (max-width: 480px){
-    #titlepage{
+    .star-container{
         background-image: url(squarebg.png);
     }
 
@@ -126,27 +147,6 @@ p{
     }
 }
 
-.star-container {
-    background-image: url(millhacksbg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-position-x: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -5;
-}
-.star {
-    position: absolute;
-    background-color: white;
-    transform: rotate(45deg);
-    opacity: 0;
-    animation: twinkle 2s infinite ease-in-out;
-}
-
 @keyframes twinkle {
     0%, 100% {
       opacity: 0;
@@ -157,9 +157,9 @@ p{
 }
 
 @keyframes textRotate {
-  0% {text-shadow: cyan 6px 6px 60px;}
-  25% {text-shadow: cyan 6px -6px 80px;}
-  50% {text-shadow: cyan -6px -6px 90px;}
-  75% {text-shadow: cyan -6px 6px 80px;}
-  100% {text-shadow: cyan 6px 6px 60px;}
+  0% {text-shadow: cyan 9px 9px 50px;}
+  25% {text-shadow: 10px -10px 80px;}
+  50% {text-shadow: #0bdaa6 -11px -11px 100px;}
+  75% {text-shadow: -10px 10px 80px;}
+  100% {text-shadow: cyan 9px 9px 50px;}
 }
