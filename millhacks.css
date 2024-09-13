@@ -75,6 +75,7 @@ p{
 }
 #container{
     margin-inline: 50px;
+    background-image: url(navyplaid.png);
 }
 .card-header, .card{
     background-color: transparent;
