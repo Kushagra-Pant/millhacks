@@ -60,6 +60,11 @@ a .navbutton{
 #schedule{
     background-image: linear-gradient(to bottom, #275477, #072A44);
 }
+
+#container{
+    margin-inline: 250px;
+}
+
 h1, h2, h5, p, .btn, .btn:hover{
     color: white;
 }
@@ -72,9 +77,6 @@ h2 {
 p{
     font-size: 20px;
     font-weight: lighter;
-}
-#container{
-    margin-inline: 250px;
 }
 .card-header, .card{
     background-color: transparent;
@@ -144,6 +146,10 @@ p{
 
     h2{
         font-size: 40px;   
+    }
+    
+    #container{
+        margin-inline: 20px;
     }
 }
 
