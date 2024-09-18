@@ -74,7 +74,7 @@ p{
     font-weight: lighter;
 }
 #container{
-    margin-inline: 50px;
+    margin-inline: 250px;
 }
 .card-header, .card{
     background-color: transparent;
@@ -132,7 +132,7 @@ p{
         display: flex;
         justify-content: center;
     }
-    
+
     .navbutton{
         display: inline-block;
         padding-inline: 10px;
@@ -162,4 +162,12 @@ p{
   50% {text-shadow:  #ebf561 -15px -11px 100px;}
   75% {text-shadow: #0bdaa6 -10px 10px 80px;}
   100% {text-shadow: cyan 9px 9px 50px;}
+}
+
+#ig.interestbutton{
+    background-color: #ffb3d4;
+    border-color: #FF6DAC;
+}
+
+#ig.navbutton{
 }
