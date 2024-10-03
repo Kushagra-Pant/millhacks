@@ -181,7 +181,7 @@ p{
 .exec-card{
     border-radius: 15px;
     height: fit-content;
-    width: 500px;
+    width: 420px;
     border: 2px solid white;
     display: inline-flex;
     align-items: center;
@@ -231,4 +231,10 @@ p{
 }
 #swarit{
     background-color: #606060;
+}
+
+@media (max-width: 500px){
+    .exec-card{
+        width: 100%;
+    }
 }
