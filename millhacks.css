@@ -44,6 +44,7 @@ nav{
 nav:hover{
     box-shadow: 0px 5px 15px black;
 }
+
 .navbutton{
     float: right;
     color: gray;
@@ -62,7 +63,7 @@ a .navbutton{
 }
 
 #container{
-    margin-inline: 250px;
+    margin-inline: 15vw;
 }
 
 h1, h2, h5, p, .btn, .btn:hover{
@@ -149,10 +150,9 @@ p{
     }
 
     #container{
-        margin-inline: 20px;
+        margin-inline: 7vw;
     }
 }
-
 @keyframes twinkle {
     0%, 100% {
       opacity: 0;
@@ -181,10 +181,11 @@ p{
 .exec-card{
     border-radius: 15px;
     height: fit-content;
-    width: fit-content;
+    width: 500px;
     border: 2px solid white;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     margin: 10px;
 }
 
@@ -208,6 +209,7 @@ p{
     color: lightgray;
     font-style: italic;
     font-weight: 100;
+    width: 200px;
     font-size: 15px;
     margin-bottom: 0px;
 }
