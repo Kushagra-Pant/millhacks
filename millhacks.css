@@ -147,7 +147,7 @@ p{
     h2{
         font-size: 40px;   
     }
-    
+
     #container{
         margin-inline: 20px;
     }
@@ -176,4 +176,56 @@ p{
 }
 
 #ig.navbutton{
+}
+
+.exec-card{
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid white;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.exec-pfp{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-image: url(default_pfp.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.exec-info{
+    margin-right: 15px;
+}
+
+.exec-desc{
+    color: lightgray;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#kushagra{
+    background-color: #349beb;
+}
+#neil{
+    background-color: #E2B100;
+}
+#ibrahim{
+    background-color: #FF5000;
+}
+#ali{
+    background-color: #C400B3;
+}
+#yasin{
+    background-color: #00C621;
+}
+#swarit{
 }
