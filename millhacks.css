@@ -233,6 +233,19 @@ p{
     background-color: #606060;
 }
 
+#sponsors-container{
+    margin: 20px;
+    display: block;
+}
+
+.sponsor{
+    margin: 10px;
+}
+
+.bronze-sponsor{
+    height: 100px;
+}
+
 @media (max-width: 600px){
     .exec-card{
         width: 100%;
