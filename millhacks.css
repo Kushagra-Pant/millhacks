@@ -6,6 +6,7 @@ body {
     font-family: "Archivo Black", sans-serif;
     font-weight: bold;
     padding-bottom: 50px;
+    height: 100vh;
     overflow-x: hidden;
 }
 #titlepage{
@@ -244,6 +245,20 @@ p{
 
 .bronze-sponsor{
     height: 100px;
+}
+
+.subtitle{
+    font-size: 36px;
+    font-style: italic;
+}
+
+#sponsorship-package{
+    width: 20vw;
+    height: 50vh;
+}
+
+#sidenav-container {
+    display: none;
 }
 
 @media (max-width: 600px){
