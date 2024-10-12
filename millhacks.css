@@ -261,6 +261,10 @@ p{
     display: none;
 }
 
+.partner{
+    margin: 20px;
+}
+
 @media (max-width: 600px){
     .exec-card{
         width: 100%;
