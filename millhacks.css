@@ -263,6 +263,7 @@ p{
 
 .partner{
     margin: 20px;
+    height: 210px;
 }
 
 @media (max-width: 600px){
