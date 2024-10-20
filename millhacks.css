@@ -153,6 +153,10 @@ p{
     #container{
         margin-inline: 7vw;
     }
+
+    #kushagra{
+        background-size: 80px;
+    }
 }
 @keyframes twinkle {
     0%, 100% {
@@ -196,7 +200,7 @@ p{
     margin: 10px;
     border-radius: 100%;
     border: 2px solid white;
-    background-image: url(default_pfp.png);
+    background-image: url(pfps/default_pfp.png);
     background-position: center;
     background-size: cover;
     margin-right: 15px;
@@ -217,18 +221,26 @@ p{
 
 #kushagra{
     background-color: #349beb;
+    background-image: url(pfps/kushagra.png);
+    background-size: 160px;
 }
 #neil{
     background-color: #E2B100;
+    background-image: url(pfps/neil.jpg);
+    background-position-y: -20px;
 }
 #ibrahim{
     background-color: #FF5000;
+    background-image: url(pfps/ibrahim.png);
+    background-size: 160px;
 }
 #ali{
     background-color: #C400B3;
+    background-image: url(pfps/ali.png);
 }
 #yasin{
     background-color: #00C621;
+    background-image: url(pfps/yasin.png);
 }
 #swarit{
     background-color: #606060;
