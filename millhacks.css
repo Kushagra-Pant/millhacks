@@ -153,10 +153,6 @@ p{
     #container{
         margin-inline: 7vw;
     }
-
-    #kushagra{
-        background-size: 80px;
-    }
 }
 @keyframes twinkle {
     0%, 100% {
@@ -222,7 +218,6 @@ p{
 #kushagra{
     background-color: #349beb;
     background-image: url(pfps/kushagra.png);
-    background-size: 160px;
 }
 #neil{
     background-color: #E2B100;
@@ -232,7 +227,6 @@ p{
 #ibrahim{
     background-color: #FF5000;
     background-image: url(pfps/ibrahim.png);
-    background-size: 160px;
 }
 #ali{
     background-color: #C400B3;
