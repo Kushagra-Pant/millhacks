@@ -200,6 +200,7 @@ p{
     background-position: center;
     background-size: cover;
     margin-right: 15px;
+    border-width: 3px;
 }
 
 .exec-info{
@@ -216,27 +217,46 @@ p{
 }
 
 #kushagra{
-    background-color: #349beb;
+    border-color: #349beb;
+    color: #349beb;
+}
+#kushagra.exec-pfp{
     background-image: url(pfps/kushagra.png);
 }
 #neil{
-    background-color: #E2B100;
+    border-color: #E2B100;
+    color: #E2B100;
+}
+#neil.exec-pfp{
     background-image: url(pfps/neil.jpg);
     background-position-y: -20px;
 }
 #ibrahim{
-    background-color: #FF5000;
+    border-color: #ff7300;
+    color: #ff7300;
+}
+#ibrahim.exec-pfp{
     background-image: url(pfps/ibrahim.png);
 }
 #ali{
-    background-color: #C400B3;
+    border-color: #c2000a;
+    color: #c2000a;
+}
+#ali.exec-pfp{
     background-image: url(pfps/ali.png);
 }
 #yasin{
-    background-color: #00C621;
+    border-color: #00C621;
+    color: #00C621;
+}
+#yasin.exec-pfp{
     background-image: url(pfps/yasin.png);
 }
 #swarit{
+    border-color: #606060;
+    color: #c8c8c8;
+}
+#swarit.exec-pfp{
     background-color: #606060;
 }
 
