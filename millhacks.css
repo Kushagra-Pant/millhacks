@@ -101,7 +101,10 @@ p{
     border: #186076 2px solid;
     transition: transform 0.6s;
 }
+
 .interestbutton:hover{
+    animation: none;
+    transition: transform 0.6s;
     transform: scale(1.2);
     opacity: 70%;
 }
@@ -176,7 +179,32 @@ p{
     border-color: #FF6DAC;
 }
 
+#ig.navbutton, #discord.navbutton{
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+}
 #ig.navbutton{
+    background-image: url(images/ig_logo.png);
+    animation: igspin 5s infinite ease-in-out;
+}
+
+#discord.navbutton{
+    background-image: url(images/discord_logo.png);
+    animation: discspin 5s infinite ease-in-out;
+}
+
+@keyframes igspin{
+    0%, 60%{rotate: 0deg;}
+    65%{rotate: -20deg}
+    85%{rotate: 380deg;}
+    90%, 100%{rotate: 360deg;}
+}
+@keyframes discspin{
+    0%, 70%{rotate: 0deg;}
+    75%{rotate: -20deg}
+    95%{rotate: 380deg;}
+    100%{rotate: 360deg;}
 }
 
 .exec-card{
@@ -188,7 +216,7 @@ p{
     align-items: center;
     justify-content: center;
     margin: 10px;
-    background-color: rgb(0, 255, 255, 0.15);
+    background-color: rgb(0, 255, 255, 0.15);;
 }
 
 .exec-card:hover{
@@ -303,7 +331,7 @@ p{
 }
 
 #sponsorship-package{
-    width: 20vw;
+    width: 21vw;
     height: 50vh;
 }
 
@@ -320,6 +348,7 @@ p{
 .partner:hover, .sponsor:hover{
     transform: scale(0.8);
 }
+
 
 @media (max-width: 600px){
     .exec-card{
