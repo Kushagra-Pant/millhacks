@@ -326,7 +326,19 @@ p{
 }
 
 .bronze-sponsor{
+    height: 70px;
+}
+
+.silver-sponsor{
     height: 100px;
+}
+
+.gold-sponsor{
+    height: 150px;
+}
+
+.diamond-sponsor{
+    height: 250px;
 }
 
 .subtitle{
