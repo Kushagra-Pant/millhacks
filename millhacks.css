@@ -52,6 +52,9 @@ nav:hover{
     padding: 15px;
     padding-inline: 25px;
 }
+.navbutton.except{
+    padding: 0px;
+}
 a .navbutton:hover{
     background-color: rgba(0, 255, 255, 0.3);
 }
@@ -179,17 +182,17 @@ p{
     border-color: #FF6DAC;
 }
 
-#ig.navbutton, #discord.navbutton{
+#insta, #discord{
     height: 60px;
     width: 60px;
     background-size: cover;
 }
-#ig.navbutton{
+#insta{
     background-image: url(images/ig_logo.png);
     animation: igspin 5s infinite ease-in-out;
 }
 
-#discord.navbutton{
+#discord{
     background-image: url(images/discord_logo.png);
     animation: discspin 5s infinite ease-in-out;
 }
