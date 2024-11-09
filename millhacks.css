@@ -304,15 +304,15 @@ p{
 #yasin.exec-pfp{
     background-image: url(pfps/yasin.png);
 }
-#swarit.exec-card{
+#casper.exec-card{
     background-image: linear-gradient(90deg, #9637f6 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%);
 }
-#swarit{
+#casper{
     border-color: #9637f6;
     color: #9637f6;
 }
-#swarit.exec-pfp{
-    background-color: #9637f6;
+#casper.exec-pfp{
+    background-image: url(pfps/casper.png);
 }
 
 #sponsors-container{
