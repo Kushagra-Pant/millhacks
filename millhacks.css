@@ -393,6 +393,7 @@ p{
 .partner{
     margin: 20px;
     height: 30vw;
+    max-height: 200px;
     transition: transform 0.6s;
 }
 
