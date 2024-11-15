@@ -41,20 +41,29 @@ nav{
     font-size: 125%;
     height: 60px;
     padding: 0%;
-    padding-right: 14px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
 }
 nav:hover{
     box-shadow: 0px 5px 15px black;
 }
 
 .navbutton{
-    float: right;
     color: gray;
     padding: 15px;
     padding-inline: 25px;
+    width: fit-content;
+    height: 60px;
 }
 .navbutton.except{
     padding: 0px;
+}
+a{
+    width: min-content;
+}
+a:hover{
+    text-decoration: none;
 }
 a .navbutton:hover{
     background-color: rgba(0, 255, 255, 0.3);
@@ -134,14 +143,19 @@ p{
     animation: twinkle 2s infinite ease-in-out;
 }
 
+.subtitle{
+    font-size: 36px;
+    font-style: italic;
+}
+
 @media (max-width: 480px){
     .star-container{
         background-image: url(squarebg.png);
     }
 
     nav{
-        display: flex;
-        justify-content: center;
+        display: inline-block;
+        height: fit-content;
     }
 
     .navbutton{
@@ -152,13 +166,21 @@ p{
     h1{
         font-size: 70px;
     }
-
+    
     h2{
         font-size: 40px;   
     }
 
+    .subtitle{
+        font-size: 20px;
+    }
+    
     #container{
         margin-inline: 7vw;
+    }
+    .interestbutton{
+        font-size: 4.5vw;
+        padding: 3vw;
     }
 }
 @keyframes twinkle {
@@ -341,9 +363,22 @@ p{
     height: 250px;
 }
 
-.subtitle{
-    font-size: 36px;
-    font-style: italic;
+@media (max-width: 900px){
+    .bronze-sponsor{
+        height: 4vh;
+    }
+
+    .silver-sponsor{
+        height: 7vh;
+    }
+
+    .gold-sponsor{
+        height: 10vh;
+    }
+
+    .diamond-sponsor{
+        height: 15vh;
+    }
 }
 
 #sponsorship-package{
@@ -379,4 +414,7 @@ p{
     p{
         margin-bottom: 5px;
     }
+}
+#socials{
+    display: inline-flex;
 }
