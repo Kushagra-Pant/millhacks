@@ -347,36 +347,36 @@ p{
     transition: transform 0.6s;
 }
 
-.bronze-sponsor{
+.sponsor.bronze{
     height: 70px;
 }
 
-.silver-sponsor{
+.sponsor.silver{
     height: 100px;
 }
 
-.gold-sponsor{
+.sponsor.gold{
     height: 150px;
 }
 
-.diamond-sponsor{
+.sponsor.diamond{
     height: 250px;
 }
 
 @media (max-width: 900px){
-    .bronze-sponsor{
+    .sponsor.bronze{
         height: 4vh;
     }
 
-    .silver-sponsor{
+    .sponsor.silver{
         height: 7vh;
     }
 
-    .gold-sponsor{
+    .sponsor.gold{
         height: 10vh;
     }
 
-    .diamond-sponsor{
+    .sponsor.diamond{
         height: 15vh;
     }
 }
