@@ -1,6 +1,6 @@
 function load() {
     starContainer = document.getElementById('star-container')
-    count = Math.random() * 200 + 100
+    count = window.innerWidth / 2
 
     for (let i = 0; i < count; i++) {
         const star = document.createElement('div')
