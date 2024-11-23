@@ -345,6 +345,7 @@ p{
 .sponsor{
     margin: 10px;
     transition: transform 0.6s;
+    border-radius: 3px;
 }
 
 .sponsor.bronze{
@@ -471,7 +472,4 @@ tr{
     display: grid;
     align-items: center;
     justify-content: center;
-}
-.logo{
-    border-radius: 3px;
 }
