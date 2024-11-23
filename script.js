@@ -1,6 +1,6 @@
 function load() {
     starContainer = document.getElementById('star-container')
-    count = Math.random() * window.innerWidth / 4 + 100
+    count = Math.random() * 200 + 100
 
     for (let i = 0; i < count; i++) {
         const star = document.createElement('div')
@@ -22,4 +22,8 @@ function load() {
 
 function setHeight(){
     document.getElementById("titlecontainer").style.height = window.innerHeight - 60 + "px"
+}
+
+function resizeSchedule(){
+    document.getElementById("schedule-container").style.height = window.innerHeight - 60 + "px"
 }
