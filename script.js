@@ -24,7 +24,7 @@ function load() {
 
 function setHeight(){
     if(window.innerHeight < 455){
-        document.getElementById("titlecontainer").style.height = window.innerHeight - 187.5 + "px"
+        document.getElementById("titlecontainer").style.height = window.innerHeight - 375 + "px"
     } else {
         document.getElementById("titlecontainer").style.height = window.innerHeight - 60 + "px"   
     }
