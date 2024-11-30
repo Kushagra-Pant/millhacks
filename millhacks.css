@@ -73,6 +73,8 @@ a .navbutton{
 
 #schedule{
     background-image: linear-gradient(to bottom, #275477, #072A44);
+    min-height: 100vh;
+    height: fit-content;
 }
 
 #container{
