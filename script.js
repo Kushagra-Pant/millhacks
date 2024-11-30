@@ -18,8 +18,14 @@ function load() {
 
         starContainer.appendChild(star)
     }
+
+    setHeight()
 }
 
 function setHeight(){
-    document.getElementById("titlecontainer").style.height = window.innerHeight - 60 + "px"
+    if(window.innerHeight < 455){
+        document.getElementById("titlecontainer").style.height = window.innerHeight - 187.5 + "px"
+    } else {
+        document.getElementById("titlecontainer").style.height = window.innerHeight - 60 + "px"   
+    }
 }
