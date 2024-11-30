@@ -164,10 +164,6 @@ p{
         display: inline-block;
         padding-inline: 10px;
     }
-
-    h1{
-        font-size: 70px;
-    }
     
     h2{
         font-size: 40px;   
@@ -185,6 +181,13 @@ p{
         padding: 3vw;
     }
 }
+
+@media (max-width: 792px){
+    h1{
+        font-size: 70px;
+    }
+}
+
 @keyframes twinkle {
     0%, 100% {
       opacity: 0;
@@ -474,4 +477,16 @@ tr{
     display: grid;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 450px) and (max-width: 480px) {
+    .navbutton{
+        transform: translateY(-20px);
+    }
+    .except{
+        transform: none;
+    }
+    nav{
+        height: 62px;
+    }
 }
